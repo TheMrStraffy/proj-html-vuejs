@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <section>
-    BusinessFeaturesMain
+    
   </section>
 </template>
 

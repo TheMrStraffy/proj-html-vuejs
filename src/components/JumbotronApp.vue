@@ -26,11 +26,12 @@ export default {
 .jumbotron{
   position: relative;
   height: 530px;
+  margin-bottom: 125px;
   .bgJumb{
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 500px;
+    height: 95%;
     background-color: #F2F7FF;
   }
 }

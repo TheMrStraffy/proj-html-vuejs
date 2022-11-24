@@ -1,10 +1,10 @@
 <script>
-import HeaderStore from '../data/HeaderStore';
+import store from '../data/store';
 export default {
   name: "HeaderApp",
   data(){
     return{
-      HeaderStore,
+      store,
     }
   }
 }
@@ -18,7 +18,7 @@ export default {
     <nav class="d-flex align-items-center">
       <ul class="d-flex align-items-center mb-0 flex-wrap">
         <li class="mx-3"
-        v-for="(item, index) in HeaderStore.menu" :key="index"
+        v-for="(item, index) in store.menu" :key="index"
         ><a :href="item.link">{{item.text}}</a></li>
         <li class="mx-3"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
         <li class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
