@@ -10,8 +10,8 @@ export default {
 }
 </script>
 <template>
-  <header class="d-flex justify-content-around">
-    <div class="logo">
+  <header class="d-flex justify-content-around align-items-center">
+    <div class="logo align-items-center ">
         <img src="../assets/img/logo-2.png" alt="sb-marketing Logo">
     </div>
 
