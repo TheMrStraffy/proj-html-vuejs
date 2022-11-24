@@ -8,7 +8,8 @@ export default{
   name: "App",
   components: {
     HeaderAppVue, JumbotronAppVue,
-    MainAppVue, FooterAppVue}
+    MainAppVue, FooterAppVue, 
+    }
  }
 </script>
 
@@ -22,5 +23,5 @@ export default{
 </template>
 
 <style lang="scss">
-@import './styles/generals.scss'
+@import './styles/generals.scss';
 </style>
