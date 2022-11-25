@@ -79,6 +79,7 @@ section{
 h2{
   margin-bottom: 30px
 }
+
 .mc-card{
   width: 500px;
   height: 350px;

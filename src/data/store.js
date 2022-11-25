@@ -113,5 +113,25 @@ export default{
       position: 'Employee',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
     },
+  ],
+  latestPosts:[
+    {
+      date: 'November 28, 2019',
+      image: '19.jpg',
+      title: 'Life Lack Meaning',
+      description: 'It is a long established fact that a reader will be distracted by the readable.'
+    },
+    {
+      date: 'November 28, 2019',
+      image: '18.jpg',
+      title: 'Life Lack Meaning',
+      description: 'It is a long established fact that a reader will be distracted by the readable.'
+    },
+    {
+      date: 'November 28, 2019',
+      image: '17.jpg',
+      title: 'Life Lack Meaning',
+      description: 'It is a long established fact that a reader will be distracted by the readable.'
+    },
   ]
 }

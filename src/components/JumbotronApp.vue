@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 .jumbotron{
   position: relative;
-  height: 530px;
+  min-height: 530px;
   margin-bottom: 125px;
   .bgJumb{
     position: absolute;
@@ -36,7 +36,7 @@ export default {
   }
 }
 img{
-  display: inline-block;
+  margin-top: 80px;
 }
 .text{
   margin-left: 55px;
