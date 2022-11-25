@@ -44,6 +44,9 @@ export default {
 
 
 <style lang="scss" scoped>
+section{
+  margin-bottom: 150px;
+}
 .mc-card{
   width: 260px;
   height: 160px;

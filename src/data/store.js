@@ -93,5 +93,25 @@ export default{
       title: 'Product Management',
       img:'511.png'
     },
+  ],
+  testimonials:[
+    {
+      image: '26.jpeg',
+      name: 'Julia Ann',
+      position: 'COO Sofbox',
+      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
+    },
+    {
+      image: '27.jpeg',
+      name: 'Mac Znder',
+      position: 'Manager Sofbox',
+      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
+    },
+    {
+      image: '25.jpeg',
+      name: 'John Doe',
+      position: 'Employee',
+      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
+    },
   ]
 }
