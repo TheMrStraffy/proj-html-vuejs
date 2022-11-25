@@ -31,5 +31,7 @@ export default {
 
 
 <style lang="scss" scoped>
-
+section{
+  margin-bottom: 140px;
+}
 </style>

@@ -60,4 +60,38 @@ export default{
         ]
     },
   ],
+  businessFeatures:[
+    {
+      title: 'Customized Invoices',
+      img:'511.png'
+    },
+    {
+      title: 'Stock Management',
+      img:'511.png'
+    },
+    {
+      title: 'Receivable & Payables',
+      img:'511.png'
+    },
+    {
+      title: 'Manage Buying',
+      img:'511.png'
+    },
+    {
+      title: 'Powerful & Secure',
+      img:'511.png'
+    },
+    {
+      title: 'Fastest Return Filing',
+      img:'511.png'
+    },
+    {
+      title: 'Monthly Detailed',
+      img:'511.png'
+    },
+    {
+      title: 'Product Management',
+      img:'511.png'
+    },
+  ]
 }
