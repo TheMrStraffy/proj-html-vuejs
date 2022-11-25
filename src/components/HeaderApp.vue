@@ -10,12 +10,12 @@ export default {
 }
 </script>
 <template>
-  <header class="d-flex justify-content-around align-items-center">
+  <header id="topPage" class="d-flex justify-content-around align-items-center">
     <div class="logo align-items-center ">
         <img src="../assets/img/logo-2.png" alt="sb-marketing Logo">
     </div>
 
-    <nav class="d-flex align-items-center">
+    <nav class="d-flex align-items-center" >
       <ul class="d-flex align-items-center mb-0 flex-wrap">
         <li class="mx-3"
         v-for="(item, index) in store.menu" :key="index"

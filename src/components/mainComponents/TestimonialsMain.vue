@@ -36,9 +36,9 @@ export default {
     </div>
 
     <swiper 
-    :slidesPerView="2"
+    :slidesPerView="3"
     :spaceBetween="30"
-    :slidesPerGroup="2"
+    :slidesPerGroup="3"
     :loop="true"
     :loopFillGroupWithBlank="true"
     :pagination="{

@@ -5,10 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Lato', sans-serif;
 }
-
+ul{
+  padding : 0;
+}
 li{
   list-style-type: none;
 }

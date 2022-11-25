@@ -23,10 +23,9 @@ export default {
     <p>If you are planning on developing a product landing.</p>
     </div>
     <div class="row justify-content-between">
-      <div 
-      v-for="(post, index) in store.latestPosts" :key="index"
-      class="col-3">
-        <div class="mc-card">
+        <div 
+        v-for="(post, index) in store.latestPosts" :key="index"
+        class="mc-card col-3">
           <div class="img-box">
             <span>{{post.date}}</span>
             <img :src="getPathImage(post.image)" alt="">
@@ -34,7 +33,6 @@ export default {
           <h4>{{post.title}}</h4>
           <p>{{post.description}}</p>
         </div>
-      </div>
     </div>
   </section>
 </template>

@@ -18,8 +18,8 @@ export default{
   <HeaderAppVue/>
   <JumbotronAppVue/>
   <MainAppVue/>
-  <FooterAppVue/>
 </div>
+  <FooterAppVue/>
 </template>
 
 <style lang="scss">

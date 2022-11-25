@@ -83,7 +83,9 @@ export default {
 
 
 <style lang="scss" scoped>
-
+section{
+  margin-bottom: 120px;
+}
 .text-area{
   margin-bottom: 80px;
   h2{

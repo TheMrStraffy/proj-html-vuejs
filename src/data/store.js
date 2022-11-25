@@ -133,5 +133,37 @@ export default{
       title: 'Life Lack Meaning',
       description: 'It is a long established fact that a reader will be distracted by the readable.'
     },
+  ],
+  footerLinks:[
+    {
+      title: 'Menu',
+      menu:[
+        {item: 'About Us'},
+        {item: 'Theme'},
+        {item: 'Features'},
+        {item: 'Pricing'},
+        {item: 'Blog'},
+    ]
+    },
+    {
+      title: 'About Us',
+      menu:[
+        {item: 'About Sofbox'},
+        {item: 'Roadmap'},
+        {item: 'How it work'},
+        {item: 'Team'},
+        {item: 'News'},
+      ]
+    },
+    {
+      title: 'Quick links',
+      menu:[
+          {item: 'About Us'},
+          {item: 'Theme'},
+          {item: 'Features'},
+          {item: 'Pricing'},
+          {item: 'Blog'},
+      ]
+    },
   ]
 }
