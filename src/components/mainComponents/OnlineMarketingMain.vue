@@ -29,7 +29,7 @@ export default {
        class="col">
 
         <div class="row">
-          <div class="col">
+          <div class="col text-end">
             <img :src=" getPathImage(item.image) " alt="">
           </div>
           <div class="col">
@@ -38,6 +38,7 @@ export default {
             <ul>
               <li 
               v-for="(listItem, index) in item.list" :key="index"
+              class="mb-3"
               >
                 <i class="fa-solid fa-check"></i>
                 {{listItem.info}}
@@ -56,5 +57,15 @@ export default {
 <style lang="scss" scoped>
 section{
   margin-bottom: 150px;
+}
+img{
+  display: inline-block;
+}
+p{
+  color: #8E989F;
+}
+i{
+  color: #377DFF;
+  margin-right: 8px;
 }
 </style>

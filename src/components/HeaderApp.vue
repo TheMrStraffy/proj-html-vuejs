@@ -16,12 +16,22 @@ export default {
     </div>
 
     <nav class="d-flex align-items-center" >
-      <ul class="d-flex align-items-center mb-0 flex-wrap">
-        <li class="mx-3"
+      <ul @click="filter()" class="d-flex align-items-center mb-0 flex-wrap">
+        <li class="mx-3" 
         v-for="(item, index) in store.menu" :key="index"
-        ><a :href="item.link">{{item.text}}</a></li>
+        
+        >
+        <a 
+        
+        :href="item.link">{{item.text}}</a></li>
         <li class="mx-3"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li class="mx-3 shopLink" >
+          <a  href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+            <span class="shopItems">0</span>
+
+          </li>
       </ul>
       <button type="button" class="btn btn-primary">Get Started</button>
     </nav>
@@ -30,6 +40,35 @@ export default {
 
 
 <style lang="scss" scoped>
+.shopLink{
+  position: relative;
+  .shopItems{
+    z-index: -1;
+    position: absolute;
+    bottom: 13px;
+    left: 12px;
+    background-color: #377DFF;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+.active{
+  border-bottom: 3px solid #377DFF;
+    padding-bottom: 15px;
+}
+a{
+  color: #1e1e1e;
+  font-weight: 600;
+  &:hover{
+    border-bottom: 3px solid #377DFF;
+    
+    padding-bottom: 15px;
+  }
+}
 header{
   height: 85px;
 }
@@ -44,6 +83,7 @@ header{
 button{
   width: 125px;
   height: 50px;
+  margin-left: 33px;
 
 }
 </style>

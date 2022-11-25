@@ -11,7 +11,7 @@ export default {
       <div class="col text">
         <h2>The biggest platform for your growth.</h2>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-        <button class="btn btn-primary"> Read More</button>
+        <button class="mc-btn"> Read More</button>
       </div>
       <div class="col d-flex align-items-end h-100">
         <img src="src/assets/img/27-1.png" alt="">
@@ -48,9 +48,19 @@ h2{
 p{
   font-size: 1.25rem;
   margin: 40px 0;
+  color: #8E989F;
 }
-button{
+.mc-btn{
   width: 135px;
   height: 45px;
+  font-size: 800;
+  color: white;
+  background-color: #377DFF;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.6s linear;
+  &:hover{
+    background-color: #1E1E1E;
+  }
 }
 </style>
