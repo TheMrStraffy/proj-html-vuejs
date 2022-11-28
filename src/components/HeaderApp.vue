@@ -11,13 +11,14 @@ export default {
   }
 }
 </script>
+
 <template>
   <header id="topPage" class="d-flex justify-content-around align-items-center">
-    <div class="logo align-items-center ">
+    <div class="logo align-items-center col-3">
         <img src="../assets/img/logo-2.png" alt="sb-marketing Logo">
     </div>
 
-    <nav class="d-flex align-items-center" >
+    <nav class="d-flex d-none d-xxl-block align-items-center col-8" >
       <ul class="d-flex align-items-center mb-0 flex-wrap">
         <li class="mx-3" 
         v-for="(item, index) in store.menu" :key="index"
@@ -35,9 +36,18 @@ export default {
             <span class="shopItems">0</span>
 
           </li>
-      </ul>
       <button type="button" class="btn btn-primary">Get Started</button>
+      </ul>
+
+      
+      
     </nav>
+
+    <nav class="d-flex d-xxl-none d-xxl-block">
+          <i class="fa-solid fa-bars fs-2 "></i>
+    </nav>
+    
+
   </header>
 </template>
 
