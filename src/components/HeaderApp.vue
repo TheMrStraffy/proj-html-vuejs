@@ -5,7 +5,8 @@ export default {
   data(){
     return{
       store,
-      
+      counter: 0,
+
     }
   }
 }
@@ -17,14 +18,14 @@ export default {
     </div>
 
     <nav class="d-flex align-items-center" >
-      <ul @click="filter()" class="d-flex align-items-center mb-0 flex-wrap">
+      <ul class="d-flex align-items-center mb-0 flex-wrap">
         <li class="mx-3" 
         v-for="(item, index) in store.menu" :key="index"
         
         >
         <a 
-        @click="item.isActive = !item.isActive"
-        :class="{'active' : item.isActive}"
+        :class="[item.isActive && index === counter ? 'active' : '']"
+        @click="item.isActive = !item.isActive , counter = index"
         :href="item.link">{{item.text}}</a></li>
         <li class="mx-3"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
         <li class="mx-3 shopLink" >
@@ -88,4 +89,5 @@ button{
   margin-left: 33px;
 
 }
+
 </style>

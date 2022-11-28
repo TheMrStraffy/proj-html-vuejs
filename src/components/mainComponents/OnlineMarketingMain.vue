@@ -26,13 +26,13 @@ export default {
 
       <div
       v-for="(item, index) in store.info" :key="index"
-       class="col">
+       class="col-12 col-lg-4">
 
         <div class="row">
-          <div class="col text-end">
+          <div class="col-4  text-center">
             <img :src=" getPathImage(item.image) " alt="">
           </div>
-          <div class="col">
+          <div class="col-8 ">
             <h4>{{item.title}}</h4>
             <p>{{item.detail}}</p>
             <ul>
