@@ -7,22 +7,27 @@ export default{
     {
       text: 'Home',
       link: '#',
+      isActive: true,
     },
     {
       text: 'About us',
-      link: '#',
+      link: '#aboutUs',
+      isActive: false,
     },
     {
       text: 'Feature',
-      link: '#',
+      link: '#feature',
+      isActive: false,
     },
     {
       text: 'Testimonials',
-      link: '#',
+      link: '#testimonials',
+      isActive: false,
     },
     {
       text: 'Contact US',
-      link: '#',
+      link: '#contactUs',
+      isActive: false,
     },
   ],
   info:[
@@ -63,35 +68,35 @@ export default{
   businessFeatures:[
     {
       title: 'Customized Invoices',
-      img:'511.png'
+      img:'featuresImgs/analysis.png'
     },
     {
       title: 'Stock Management',
-      img:'511.png'
+      img:'featuresImgs/send-mail.png'
     },
     {
       title: 'Receivable & Payables',
-      img:'511.png'
+      img:'featuresImgs/personal-development.png'
     },
     {
       title: 'Manage Buying',
-      img:'511.png'
+      img:'featuresImgs/requirements.png'
     },
     {
       title: 'Powerful & Secure',
-      img:'511.png'
+      img:'featuresImgs/global.png'
     },
     {
       title: 'Fastest Return Filing',
-      img:'511.png'
+      img:'featuresImgs/personal-development.png'
     },
     {
       title: 'Monthly Detailed',
-      img:'511.png'
+      img:'featuresImgs/contract.png'
     },
     {
       title: 'Product Management',
-      img:'511.png'
+      img:'featuresImgs/thumbs-up.png'
     },
   ],
   testimonials:[
@@ -110,6 +115,12 @@ export default{
     {
       image: '25.jpeg',
       name: 'John Doe',
+      position: 'Employee',
+      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
+    },
+    {
+      image: 'janeDoe.jpg',
+      name: 'Jane Doe',
       position: 'Employee',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fugiat magni architecto impedit laboriosiam'
     },

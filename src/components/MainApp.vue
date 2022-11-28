@@ -17,12 +17,17 @@ export default {
 </script>
 <template>
   <main>
+    <div class="container">
     <OnlineMarketingMainVue/>
     <SalesTricksMainVue/>
     <BusinessFeaturesMainVue/>
+    </div>
+    
     <TestimonialsMainVue/>
+    <div class="container">
     <LatestPostsMainVue/>
     <ContactTeamMainVue/>
+    </div>
   </main>
 </template>
 

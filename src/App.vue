@@ -17,8 +17,9 @@ export default{
 <div class="container">
   <HeaderAppVue/>
   <JumbotronAppVue/>
-  <MainAppVue/>
 </div>
+  <MainAppVue/>
+  
   <FooterAppVue/>
 </template>
 

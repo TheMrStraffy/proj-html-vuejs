@@ -48,13 +48,25 @@ export default {
 .img-box{
   width: 50px;
   height: 50px;
+  color: #377DFF;
+  font-weight: 800;
+  margin-bottom: 10px;
   img{
     height: 100%;
     margin-right: 10px;
   }
 }
+p{
+  color: #8e989f;
+}
 .go-top{
   height: 95px;
+}
+li a{
+  color: #8e989f;
+  &:hover{
+    color: #377DFF;
+  }
 }
 .button-box{
 

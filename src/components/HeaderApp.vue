@@ -5,6 +5,7 @@ export default {
   data(){
     return{
       store,
+      
     }
   }
 }
@@ -22,7 +23,8 @@ export default {
         
         >
         <a 
-        
+        @click="item.isActive = !item.isActive"
+        :class="{'active' : item.isActive}"
         :href="item.link">{{item.text}}</a></li>
         <li class="mx-3"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
         <li class="mx-3 shopLink" >

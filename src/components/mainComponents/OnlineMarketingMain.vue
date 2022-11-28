@@ -22,7 +22,7 @@ export default {
 
   <section>
 
-    <div class="row ">
+    <div class="row " id="aboutUs">
 
       <div
       v-for="(item, index) in store.info" :key="index"

@@ -18,12 +18,12 @@ export default {
 <template>
   <section>
     <div class="row">
-      <div class="row">
-        <div class="col">
+      <div class="row justify-content-between" id="feature">
+        <div class="col-8">
           <h2>Popular features that your business needs</h2>
-          <p>Faff about only a quid blower i don't want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!</p>
+          <p class="w-75">Faff about only a quid blower i don't want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!</p>
         </div>
-        <div class="col">
+        <div class="col-3">
           <div class="btn btn-primary"> Explore More Feature</div>
         </div>
       </div>
@@ -47,8 +47,28 @@ export default {
 section{
   margin-bottom: 150px;
 }
+p{
+  color: #8e989f;
+}
 .mc-card{
+  padding: 20px 10px;
   width: 260px;
   height: 160px;
+  box-shadow: 0px 0px 60px -30px rgb(177, 177, 177);
+  -webkit-box-shadow: 0px 0px 60px -30px rgba(177, 177, 177);
+  -moz-box-shadow: 0px 0px 60px -30px rgba(177, 177, 177);
+  transition: all 0.5s linear;
+  &:hover{
+    color: white;
+    background-color: #6CDAC1;
+  }
+}
+.img-box{
+  height: 40px;
+  
+  img{
+    margin-left: 20px;
+    height: 100%;
+  }
 }
 </style>

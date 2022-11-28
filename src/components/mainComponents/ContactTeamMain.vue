@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <section>
-    <div class="row text-center text-area">
+    <div class="row text-center text-area" id="contactUs">
     <h2>Contact with our team</h2>
     <p>If you are planning on developing a product landing.</p>
     </div>
@@ -13,7 +13,7 @@ export default {
   <div class="row">
     <div class="col map d-flex justify-content-end">
       <div class="img-box">
-        <div class="row box-address ">
+        <div class="row box-address">
           <div class="col">
           <p class="street">Storey Ave</p>
           <p class="main-address">San Francisco, Califoria 94129</p>
@@ -37,17 +37,35 @@ export default {
       </div>
         <p class="address">9840 Shore St.Fond Du Lac, WI 54935</p>
 
-        <div class="details">
+        <div class="details mb-5">
           <p>0 1223 456 789</p>
           <p>mail@softbox.com</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-between w-50 mb-5">
           <div class="col">
+            <a href="#">
+
             <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+
             <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+
             <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+
             <i class="fa-brands fa-instagram"></i>
+            </a>
           </div>
         </div>
 
@@ -92,6 +110,12 @@ section{
     margin-bottom: 25px;
   }
 }
+p, span {
+  color: #8E989F;
+}
+.address{
+  color:black;
+}
 .img-box{
   position: relative;
 
@@ -115,12 +139,19 @@ section{
     object-position: 10px 10px;
     object-fit: left top;
   }
+  .street{
+    margin-top: 5px;
+    color: black;
+    font-weight: 800;
+  }
   }
 }
 .img-logo{
   height: 40px;
+  margin-bottom: 1.3rem;
   span{
     font-weight: 800;
+    color: #377DFF;
   }
   img{
     margin-right: 10px;
