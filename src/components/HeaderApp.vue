@@ -13,8 +13,8 @@ export default {
 </script>
 
 <template>
-  <header id="topPage" class="d-flex justify-content-around align-items-center">
-    <div class="logo align-items-center col-3">
+  <header id="topPage" class="d-flex justify-content-between align-items-center">
+    <div class="logo align-items-center col-3 mx-5">
         <img src="../assets/img/logo-2.png" alt="sb-marketing Logo">
     </div>
 
