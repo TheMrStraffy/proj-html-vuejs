@@ -39,6 +39,9 @@ export default {
 
 
 <style lang="scss" scoped>
+section{
+  margin-bottom: 80px;
+}
 .text-area{
   margin-bottom: 100px;
 }
